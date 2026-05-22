@@ -173,16 +173,46 @@ use("CustomerDB")
 
 // Total amount of transaction done using bitcoin
 
+// db.transactions.aggregate([
+//     {
+//         $match:{
+//             payment_method:"Bitcoin"
+//         }
+//     },{
+//         $group:{
+//             _id:"$payment_method",
+//             totaltransaction:{$sum:"$amount"}
+//         }
+//     }
+// ])
+
+
+// db.transactions.updateMany(
+//     {
+//         $or: [
+//             { transaction_date: null },
+//             { transaction_date: "" }
+//         ]
+//     },
+//     {
+//         $set: {
+//             transaction_date: "Not Available"
+//         }
+//     }
+// )
+
 db.transactions.aggregate([
     {
         $match:{
-            payment_method:"Bitcoin"
+            transaction_date:"Not Available"
         }
-    },{
+    },
+    {
         $group:{
-            _id:"$payment_method",
-            totaltransaction:{$sum:"$amount"}
+            _id:"$transaction_date",
+            totaltransaction:{$sum:1}
         }
     }
 ])
+
 
