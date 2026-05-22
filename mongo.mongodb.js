@@ -112,17 +112,77 @@ use("CustomerDB")
 // ])
 
 // finding the fraud_flag transaction amount
+// db.transactions.aggregate([
+//     {
+//         $match:{
+//             fraud_flag:true,
+
+//         }
+//     },
+//     {
+//         $group:{
+//             _id:"$fraud_flag",
+//             totalamount:{$sum:"$amount"}
+//         }
+//     }
+// ])
+
+// Total number of unknown user
+// db.transactions.aggregate([
+//     {
+//         $match:{
+//           customer_name:"Unknown User"
+//         }
+//     },{
+//         $group:{
+//             _id:"$customer_name",
+//             totaltransaction:{$sum:1}
+//         }
+//     }
+// ])
+
+// Total amount of transaction done by the unknown user
+// db.transactions.aggregate([
+//     {
+//         $match:{
+//             customer_name:"Unknown User"
+//         }
+//     },{
+//         $group:{
+//             _id:"$customer_name",
+//             totalamount:{$sum:"$amount"}
+//         }
+//     }
+// ])
+
+
+// Finding the total no of  transaction done using bitcoin
+// db.transactions.aggregate([
+//     {
+//         $match:{
+//             payment_method:"Bitcoin"
+//         }
+//     },{
+//         $group:{
+//             _id:"$payment_method",
+//             totaltransaction:{$sum:1}
+
+//         }
+//     }
+// ])
+
+// Total amount of transaction done using bitcoin
+
 db.transactions.aggregate([
     {
         $match:{
-            fraud_flag:true,
-
+            payment_method:"Bitcoin"
         }
-    },
-    {
+    },{
         $group:{
-            _id:"$fraud_flag",
-            totalamount:{$sum:"$amount"}
+            _id:"$payment_method",
+            totaltransaction:{$sum:"$amount"}
         }
     }
 ])
+
