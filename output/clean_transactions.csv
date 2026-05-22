@@ -1,0 +1,98 @@
+transaction_id,customer_id,customer_name,email,phone_number,amount,payment_method,transaction_status,transaction_date,city,login_attempts,device_type,fraud_flag,valid_email,valid_phone
+1001,C008,Aman,user1@mail.com,8181241943,5400,Card,Failed,2026-05-20,Bangalore,8,mobile,True,True,True
+1002,C028,Aman,user2@mail.com,7127978094,499,Card,Failed,,Unknown,0,tablet,False,True,True
+1003,C013,Unknown User,user3@mail.com,9791232393,0,Card,Done,,Kathmandu,0,mobile,False,True,True
+1004,C028,Sohan,user4@mail.com,8193448329,1200,Card,Pending,2026-05-20,Delhi,6,mobile,True,True,True
+1005,C023,Neha,user5@mail.com,8477278577,300,UPI,Done,,Delhi,6,mobile,True,True,True
+1006,C019,Neha,user6@mail.com,9699987374,99999,Bitcoin,Failed,2026-05-20,Delhi,3,mobile,False,True,True
+1007,C006,Neha,user7mail.com,7999829240,499,NetBanking,Pending,,Bangalore,5,mobile,True,False,True
+1008,C024,Sohan,user8@mail.com,7899825838,300,Cash,Success,,Bangalore,2,tablet,False,True,True
+1009,C016,Riya,user9@mail.com,12345,0,Cash,Unknown,,Bangalore,5,mobile,True,True,False
+1010,C015,Neha,user10@mail.com,7137869475,99999,NetBanking,Pending,2026-05-20,Mumbai,5,mobile,True,True,True
+1011,C032,Priya,user11@mail.com,9761027762,750,Card,Pending,,Mumbai,8,tablet,True,True,True
+1012,UNKNOWN,Unknown User,user12@mail.com,9510777721,0,Bitcoin,Done,,Mumbai,2,tablet,False,True,True
+1013,C032,Aman,user13@mail.com,7202363285,499,Card,Failed,,Unknown,1,desktop,False,True,True
+1014,C025,Rahul,user14@mail.com,9010258946,300,Bitcoin,Success,2026-05-20,Bangalore,8,mobile,True,True,True
+1016,C012,Rahul,user16@mail.com,7457031004,300,Cash,Unknown,,Mumbai,2,mobile,False,True,True
+1017,C011,Rahul,user17@mail.com,9277851678,250,Bitcoin,Pending,,Delhi,1,mobile,False,True,True
+1018,C020,Riya,user18@mail.com,7248786714,5400,Bitcoin,Success,2026-05-20,Bangalore,7,mobile,True,True,True
+1019,C035,Neha,user19@mail.com,7540137296,1200,Cash,Done,,Mumbai,4,tablet,True,True,True
+1020,C028,Riya,user20@mail.com,9316259067,5400,Cash,Pending,,Bangalore,5,desktop,True,True,True
+1021,C034,Priya,user21mail.com,7519709079,5400,Card,Success,,Delhi,8,mobile,True,False,True
+1022,C015,Aman,user22@mail.com,7304912982,250,Card,Success,2026-05-20,Kathmandu,1,tablet,False,True,True
+1023,C016,Sohan,user23@mail.com,9873237671,750,Card,Unknown,,Bangalore,7,mobile,True,True,True
+1024,C031,Neha,user24@mail.com,8748309234,5400,UPI,Success,,Kathmandu,6,desktop,True,True,True
+1025,C030,Neha,user25@mail.com,7232663462,499,UPI,Done,,Delhi,3,mobile,False,True,True
+1026,C013,Rahul,user26@mail.com,8926780541,1200,NetBanking,Failed,,Patna,3,mobile,False,True,True
+1027,C029,Neha,user27@mail.com,9363629219,499,UPI,Unknown,2026-05-20,Delhi,3,mobile,False,True,True
+1028,C027,Priya,user28@mail.com,9067418686,5400,NetBanking,Success,,Patna,0,desktop,False,True,True
+1029,C017,Neha,user29@mail.com,8954246074,300,NetBanking,Unknown,,Mumbai,3,mobile,False,True,True
+1030,C014,Aman,user30@mail.com,9487560384,250,Cash,Pending,2026-05-20,Delhi,7,tablet,True,True,True
+1031,C034,Riya,user31@mail.com,7244295904,499,Card,Success,,Delhi,3,desktop,False,True,True
+1032,C008,Rahul,user32@mail.com,8057486868,250,Bitcoin,Success,,Bangalore,8,mobile,True,True,True
+1033,UNKNOWN,Riya,user33@mail.com,9876451163,99999,Card,Pending,,Mumbai,4,desktop,True,True,True
+1034,C021,Neha,user34@mail.com,7311570307,250,NetBanking,Unknown,,Delhi,1,tablet,False,True,True
+1035,C014,Rahul,user35@mail.com,8139027119,1200,Cash,Success,,Kathmandu,4,mobile,True,True,True
+1036,C029,Neha,user36@mail.com,9333103372,300,Bitcoin,Unknown,2026-05-20,Bangalore,8,mobile,True,True,True
+1037,C007,Riya,user37@mail.com,8135872495,499,UPI,Unknown,,Kathmandu,4,tablet,True,True,True
+1038,C014,Unknown User,user38@mail.com,8472659626,5400,Cash,Pending,,Patna,4,mobile,True,True,True
+1039,C006,Unknown User,user39@mail.com,8819244083,300,UPI,Success,,Mumbai,4,mobile,True,True,True
+1040,C029,Rahul,user40@mail.com,8836901321,250,UPI,Success,,Unknown,0,mobile,False,True,True
+1041,C010,Priya,user41@mail.com,7547374338,250,Cash,Pending,2026-05-20,Kathmandu,3,unknown,False,True,True
+1042,C016,Unknown User,user42@mail.com,7441495235,99999,Bitcoin,Done,,Bangalore,2,mobile,False,True,True
+1043,C011,Neha,user43@mail.com,7760434128,0,UPI,Failed,,Patna,3,mobile,False,True,True
+1044,C011,Neha,user44@mail.com,7464267175,0,UPI,Done,,Mumbai,7,mobile,True,True,True
+1045,C020,Neha,user45@mail.com,7977515194,5400,UPI,Failed,,Kathmandu,4,mobile,True,True,True
+1046,C018,Sohan,user46@mail.com,9755143093,0,Cash,Unknown,,Delhi,1,mobile,False,True,True
+1047,C012,Rahul,user47@mail.com,8140169349,250,UPI,Unknown,,Kathmandu,5,desktop,True,True,True
+1049,C013,Sohan,user49@mail.com,8852408227,499,Cash,Pending,,Kathmandu,1,unknown,False,True,True
+1050,C020,Rahul,user50@mail.com,8328367510,0,Cash,Done,,Unknown,2,mobile,False,True,True
+1051,C027,Unknown User,user51@mail.com,8628416575,1200,Bitcoin,Unknown,,Patna,8,mobile,True,True,True
+1052,C020,Sohan,user52mail.com,7902727745,0,Bitcoin,Unknown,,Patna,7,desktop,True,False,True
+1053,C014,Rahul,user53@mail.com,9032319170,1200,Cash,Success,,Unknown,5,mobile,True,True,True
+1054,C016,Unknown User,user54@mail.com,12345,5400,Card,Failed,2026-05-20,Delhi,3,desktop,False,True,False
+1055,C005,Priya,user55@mail.com,8780010572,5400,Cash,Done,,Patna,3,mobile,False,True,True
+1056,C001,Neha,user56@mail.com,7457788949,0,Card,Failed,,Patna,0,tablet,False,True,True
+1057,C016,Neha,user57@mail.com,7521231222,750,Card,Done,,Unknown,5,desktop,True,True,True
+1058,C033,Priya,user58@mail.com,9353092123,750,Card,Done,,Kathmandu,3,unknown,False,True,True
+1059,C018,Neha,user59@mail.com,9238965651,750,Cash,Failed,,Patna,1,unknown,False,True,True
+1060,C019,Riya,user60@mail.com,8167007513,99999,Cash,Unknown,2026-05-20,Mumbai,2,mobile,False,True,True
+1061,UNKNOWN,Unknown User,user61@mail.com,7656293602,5400,UPI,Done,,Kathmandu,8,desktop,True,True,True
+1062,C027,Aman,user62@mail.com,7888346940,0,NetBanking,Unknown,2026-05-20,Unknown,6,desktop,True,True,True
+1063,C001,Sohan,user63@mail.com,8282531582,0,NetBanking,Unknown,,Unknown,3,desktop,False,True,True
+1064,C015,Sohan,user64@mail.com,8871901278,750,UPI,Done,,Bangalore,6,unknown,True,True,True
+1065,C011,Neha,user65@mail.com,9007425404,1200,Bitcoin,Unknown,2026-05-20,Patna,0,mobile,False,True,True
+1066,C028,Riya,user66@mail.com,8982979741,1200,UPI,Pending,,Kathmandu,3,desktop,False,True,True
+1067,C021,Sohan,user67@mail.com,8628334692,300,NetBanking,Pending,2026-05-20,Patna,0,unknown,False,True,True
+1068,C035,Aman,user68@mail.com,8503068227,5400,Cash,Success,2026-05-20,Delhi,3,mobile,False,True,True
+1069,C002,Rahul,user69@mail.com,7654477195,5400,Card,Done,2026-05-20,Unknown,3,desktop,False,True,True
+1070,C017,Neha,user70@mail.com,8584392711,1200,Bitcoin,Unknown,2026-05-20,Mumbai,4,mobile,True,True,True
+1071,C002,Sohan,user71@mail.com,9473028098,0,NetBanking,Failed,2026-05-20,Unknown,3,mobile,False,True,True
+1072,C020,Neha,user72@mail.com,9938870196,499,Bitcoin,Success,,Unknown,6,unknown,True,True,True
+1073,C024,Aman,user73@mail.com,9173085046,99999,UPI,Done,,Delhi,6,mobile,True,True,True
+1074,C030,Unknown User,user74@mail.com,7657091982,0,Card,Unknown,,Unknown,8,desktop,True,True,True
+1075,C030,Priya,user75@mail.com,9544659112,300,Cash,Failed,2026-05-20,Kathmandu,7,mobile,True,True,True
+1076,C030,Rahul,user76@mail.com,9621354709,0,Cash,Success,,Kathmandu,2,desktop,False,True,True
+1078,C013,Aman,user78@mail.com,8036616336,0,NetBanking,Unknown,,Bangalore,7,unknown,True,True,True
+1079,C032,Priya,user79@mail.com,7074059253,499,Cash,Failed,,Bangalore,3,mobile,False,True,True
+1080,C024,Priya,user80@mail.com,9377148230,99999,NetBanking,Unknown,,Kathmandu,7,mobile,True,True,True
+1081,C020,Sohan,user81@mail.com,7990153355,499,Cash,Failed,,Delhi,8,unknown,True,True,True
+1082,C012,Riya,user82@mail.com,7929364954,750,Cash,Unknown,,Unknown,4,mobile,True,True,True
+1083,C013,Sohan,user83@mail.com,7977032766,99999,Card,Pending,2026-05-20,Bangalore,8,mobile,True,True,True
+1084,C018,Aman,user84@mail.com,7234187462,300,Cash,Failed,,Delhi,0,tablet,False,True,True
+1085,C019,Priya,user85@mail.com,9056061866,750,Cash,Failed,2026-05-20,Kathmandu,7,mobile,True,True,True
+1086,C005,Priya,user86@mail.com,9112035409,499,Bitcoin,Success,,Mumbai,4,mobile,True,True,True
+1087,C016,Aman,user87@mail.com,9396905421,0,Bitcoin,Unknown,,Mumbai,8,desktop,True,True,True
+1088,C029,Priya,user88@mail.com,8277121963,0,Cash,Unknown,,Delhi,1,mobile,False,True,True
+1089,C014,Sohan,user89@mail.com,9836517266,499,Card,Failed,,Unknown,1,mobile,False,True,True
+1090,C001,Priya,user90@mail.com,8934898666,750,Cash,Success,,Kathmandu,4,unknown,True,True,True
+1091,C030,Aman,user91@mail.com,9952295757,5400,Cash,Unknown,,Patna,1,tablet,False,True,True
+1092,C015,Unknown User,user92@mail.com,7639904576,300,Card,Success,2026-05-20,Mumbai,4,tablet,True,True,True
+1093,C019,Priya,user93@mail.com,7534094883,750,Cash,Pending,,Kathmandu,8,tablet,True,True,True
+1094,C032,Priya,user94@mail.com,7345495128,250,NetBanking,Pending,,Kathmandu,0,mobile,False,True,True
+1095,C015,Unknown User,user95@mail.com,9470461357,250,Cash,Pending,,Delhi,2,desktop,False,True,True
+1096,C034,Unknown User,user96@mail.com,8899360801,300,Card,Unknown,,Bangalore,7,mobile,True,True,True
+1097,C031,Sohan,user97@mail.com,8753841726,99999,Cash,Success,,Kathmandu,6,unknown,True,True,True
+1098,C032,Sohan,user98@mail.com,9845774616,0,Bitcoin,Success,,Delhi,5,mobile,True,True,True
+1099,C021,Aman,user99@mail.com,8735918651,250,Cash,Unknown,,Patna,0,mobile,False,True,True
+1100,C034,Sohan,user100@mail.com,9674192109,750,Cash,Done,2026-05-20,Mumbai,4,tablet,True,True,True
